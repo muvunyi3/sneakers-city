@@ -1,0 +1,12 @@
+<div class="row templates">
+	<div ng-repeat="sneaker in sneakers">
+		<div class="col-md-4">
+			<h3>{{sneaker.brandName}}</h3>
+			<img ng-src="{{sneaker.imageUrl}}">
+			<h4>Rwf{{sneaker.price}}</h4>
+			<a class="btn btn-primary btn block" href="#!/sneakers/{{sneaker.id}}">Details</a>
+		</div>
+	</div>
+	
+</div>
+
